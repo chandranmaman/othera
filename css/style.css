@@ -1473,4 +1473,25 @@ figure {
     align-items: center;
     margin: 3rem;
 }
+.fh5co-holy {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem;
+}
+.fh5co-center-hor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-center-hor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
